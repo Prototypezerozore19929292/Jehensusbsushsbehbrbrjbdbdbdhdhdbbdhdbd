@@ -1,0 +1,3673 @@
+local OrionLib = loadstring(game:HttpGet(("https://raw.githubusercontent.com/Giangplay/Script/main/Orion_Library_PE_V2.lua")))()
+local Window = OrionLib:MakeWindow({IntroText = "Ability Wars🤛", IntroToggleIcon = "rbxassetid://17376649624",Icon = "rbxassetid://17491654443",IntroIcon = "rbxassetid://17491654443",Name = "✌️🇵🇭 Tester Hub Ability Wars 🇵🇭✌️", HidePremium = false, SaveConfig = true, IntroEnabled = true, ConfigFolder = "Tester Hub ability wars"})
+
+--[[
+Name = <string> - The name of the UI.
+HidePremium = <bool> - Whether or not the user details shows Premium status or not.
+SaveConfig = <bool> - Toggles the config saving in the UI.
+ConfigFolder = <string> - The name of the folder where the configs are saved.
+IntroEnabled = <bool> - Whether or not to show the intro animation.
+IntroText = <Tester hub> - Text to show in the intro animation.
+IntroIcon = <rbxassetid://16544818461> - URL to the image you want to use in the intro animation.
+Icon = <string> - URL to the image you want displayed on the window.
+CloseCallback = <function> - Function to execute when the window is closed.
+]]
+
+OrionLib:MakeNotifi({
+	Title = "Hello!",
+	Text = "ty for using this version of tester hub ability wars I hope you enjoy the script ",
+	Time = 5
+})
+--[[
+Title = <string> - The title of the notification.
+Text = <string> - The content of the notification.
+Time = <number> - The duration of the notfication.
+]]
+OrionLib:MakeNotifi({
+	Title = "exploiters",
+	Text = "pls credit me when you are showcasing | made by testerhubby |",
+	Time = 5
+})
+--[[
+Title = <string> - The title of the notification.
+Text = <string> - The content of the notification.
+Time = <number> - The duration of the notfication.
+]]
+OrionLib:MakeNotifi({
+	Title = "having trouble",
+	Text = "having trouble figuring out what to do go to home tab it has an tutorial",
+	Time = 5
+})
+--[[
+Title = <string> - The title of the notification.
+Text = <string> - The content of the notification.
+Time = <number> - The duration of the notfication.
+]]
+
+local Tab11 = Window:MakeTab({
+	Name = "Home",
+	Icon = "rbxassetid://16984792984",
+	PremiumOnly = false
+})
+
+local Tab13 = Window:MakeTab({
+	Name = "Tips",
+	Icon = "rbxassetid://7733799795",
+	PremiumOnly = false
+})
+
+local Tab12 = Window:MakeTab({
+	Name = "Updates\nAnnouncement",
+	Icon = "rbxassetid://7733964640",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+
+local Tab = Window:MakeTab({
+	Name = "Admin | Scripts | Executors",
+	Icon = "rbxassetid://16574559304",
+	PremiumOnly = false
+})
+
+local Tab1 = Window:MakeTab({
+	Name = "Misc",
+	Icon = "rbxassetid://16574556171",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+
+local Tab2 = Window:MakeTab({
+	Name = "Equip Abilities",
+	Icon = "rbxassetid://16574554023",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+
+local Tab3 = Window:MakeTab({
+	Name = "Combat",
+	Icon = "rbxassetid://16574552389",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+
+local Tab4 = Window:MakeTab({
+	Name = "Local/Players/Character",
+	Icon = "rbxassetid://16993862795",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+
+local Tab5 = Window:MakeTab({
+	Name = "Antis",
+	Icon = "rbxassetid://16574549378",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+
+local Tab6 = Window:MakeTab({
+	Name = "Get badge",
+	Icon = "rbxassetid://16605668773",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+
+local Tab7 = Window:MakeTab({
+	Name = "Teleport",
+	Icon = "rbxassetid://16605664862",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+
+
+local Tab8 = Window:MakeTab({
+	Name = "Troller",
+	Icon = "rbxassetid://16624444750",
+	PremiumOnly = false
+})
+
+
+local Tab9 = Window:MakeTab({
+	Name = "Gamemodes",
+	Icon = "rbxassetid://16730381331",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+
+
+local Tab10 = Window:MakeTab({
+	Name = "FREE Abilities",
+	Icon = "rbxassetid://16574560757",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+
+local Tab14 = Window:MakeTab({
+	Name = "Mastery's",
+	Icon = "rbxassetid://17365729141",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+local Tab15 = Window:MakeTab({
+	Name = "Emotes",
+	Icon = "rbxassetid://17546833433",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+
+local ANTI_VOID = Instance.new("Part")
+ANTI_VOID.Parent = workspace
+ANTI_VOID.Anchored = true
+ANTI_VOID.Transparency = 1
+ANTI_VOID.Position = Vector3.new(63, 15, -9)
+ANTI_VOID.Size = Vector3.new(2048,1,2048)
+ANTI_VOID.CanCollide = false
+
+local SafeSpot = Instance.new("Part", workspace)
+SafeSpot.Position = Vector3.new(math.random(-25000,-2500),100,math.random(-25000,-2500))
+SafeSpot.Name = "Spot"
+SafeSpot.Size = Vector3.new(500,50,500)
+SafeSpot.Anchored = true
+SafeSpot.Transparency = .5
+
+if not game.ReplicatedStorage:FindFirstChild("robAnimation") then
+local robAnim = Instance.new("Animation")
+robAnim.AnimationId = "rbxassetid://13675136513"
+robAnim.Parent = game.ReplicatedStorage
+robAnim.Name = "robAnimation"
+end
+
+
+Tab4:AddSlider({
+	Name = "Walkspeed",
+	Min = 20,
+	Max = 1000,
+	Default = 20,
+	Color = Color3.fromRGB(0, 255, 255),
+	Increment = 1,
+	ValueName = "WS",
+	Callback = function(Value)
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+Walkspeed = Value
+	end    
+})
+Tab4:AddToggle({
+	Name = "Keep Walkspeed",
+	Default = false,
+	Callback = function(Value)
+KeepWalkspeed = Value
+            while KeepWalkspeed do
+                if game.Players.LocalPlayer.Character:FindFirstChild("Humanoid") ~= nil and game.Players.LocalPlayer.Character.Humanoid.WalkSpeed ~= Walkspeed then
+                    game.Players.LocalPlayer.Character:FindFirstChild("Humanoid").WalkSpeed = Walkspeed
+                end
+task.wait()
+            end
+	end    
+})
+
+Tab4:AddSlider({
+	Name = "Jumppower",
+	Min = 50,
+	Max = 1000,
+	Default = 50,
+	Color = Color3.fromRGB(255, 165, 0),
+	Increment = 1,
+	ValueName = "JP",
+	Callback = function(Value)
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
+Jumppower = Value
+	end    
+})
+Tab4:AddToggle({
+	Name = "Keep Jumppower",
+	Default = false,
+	Callback = function(Value)
+KeepJumppower = Value
+            while KeepJumppower do
+                if game.Players.LocalPlayer.Character:FindFirstChild("Humanoid") ~= nil and game.Players.LocalPlayer.Character.Humanoid.WalkSpeed ~= Jumppower then
+                    game.Players.LocalPlayer.Character:FindFirstChild("Humanoid").WalkSpeed = Jumppower
+                end
+task.wait()
+            end
+	end    
+})
+
+local Section = Tab14:AddSection({
+	Name = "Get mastery's"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+
+Tab3:AddToggle({
+                    Name = "Punch Aura | ⚠️ this is bannable i recommend alts first ⚠️ |",
+                    Default = false,
+                    Callback = function(Value)
+PunchAura = Value
+                while PunchAura do
+for i,v in pairs(game.Players:GetChildren()) do
+                    if v ~= game.Players.LocalPlayer and game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart") and v.Character then
+if v.Character:FindFirstChild("HumanoidRootPart") then
+Magnitude = (game.Players.LocalPlayer.Character.HumanoidRootPart.Position - v.Character.HumanoidRootPart.Position).Magnitude
+                        if 25 >= Magnitude then
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").Punch:FireServer(v.Character,Vector3.new,0,v.Character:FindFirstChild("Head"))
+                    end
+end
+end
+                end
+wait(.4)
+end
+end
+                })
+                
+                Tab3:AddToggle({
+                    Name = "Kill Aura | ⚠️ this is dangerous i recommend alts first ⚠️ |",
+                    Default = false,
+                    Callback = function(Value)
+PunchAura = Value
+                while PunchAura do
+for i,v in pairs(game.Players:GetChildren()) do
+                    if v ~= game.Players.LocalPlayer and game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart") and v.Character then
+if v.Character:FindFirstChild("HumanoidRootPart") then
+Magnitude = (game.Players.LocalPlayer.Character.HumanoidRootPart.Position - v.Character.HumanoidRootPart.Position).Magnitude
+                        if 25 >= Magnitude then
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").Punch:FireServer(v.Character,Vector3.new,0,v.Character:FindFirstChild("Head"))
+                    end
+end
+end
+                end
+wait(0.0)
+end
+end
+                })
+
+Tab5:AddToggle({
+                    Name = "Anti Kick",
+                    Default = false,
+                    Callback = function(Value)
+AntiKick = Value
+while AntiKick do
+for i,v in pairs(game.CoreGui.RobloxPromptGui.promptOverlay:GetDescendants()) do
+                    if v.Name == "ErrorPrompt" then
+game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId, game.Players.LocalPlayer)
+                    end
+                end
+task.wait()
+end
+end
+})
+
+Tab5:AddToggle({
+                    Name = "Anti Card",
+                    Default = false,
+                    Callback = function(Value)
+AntiCard = Value
+while AntiCard do
+for i,v in pairs(game.Workspace:GetChildren()) do
+                    if v.ClassName == "Part" and v:FindFirstChild("TouchInterest") and v:FindFirstChild("Decal") then
+                        v.CanTouch = false
+                    end
+                end
+                task.wait()
+                end
+                    end    
+                })
+
+Tab5:AddToggle({
+                    Name = "Anti Barrier",
+                    Default = false,
+                    Callback = function(Value)
+AntiBarrier = Value
+while AntiBarrier do
+for i,v in pairs(game.Workspace:GetChildren()) do
+                    if v.Name == "Barrier Wall" and v:FindFirstChild("TouchInterest") then
+                        v.CanTouch = false
+                        v.CanCollide = false
+                    end
+                end
+                task.wait()
+                end
+                    end    
+                })
+
+Tab5:AddToggle({
+                    Name = "Anti Soap",
+                    Default = false,
+                    Callback = function(Value)
+AntiSoap = Value
+while AntiSoap do
+for i,v in pairs(game.Workspace:GetChildren()) do
+                    if v.Name == "Soap" and v:FindFirstChild("TouchInterest") then
+                        v.CanTouch = false
+                        v.CanCollide = false
+                    end
+                end
+                task.wait()
+                end
+                    end    
+                })
+
+
+
+Tab6:AddButton({
+	Name = "Get grocery shopping badge",
+	Callback = function()
+firetouchinterest(game.Players.LocalPlayer.Character:WaitForChild("Head"), workspace["Map Items"].Burger.TouchInterest.Parent, 0)
+firetouchinterest(game.Players.LocalPlayer.Character:WaitForChild("Head"), workspace["Map Items"].Burger.TouchInterest.Parent, 1)
+firetouchinterest(game.Players.LocalPlayer.Character:WaitForChild("Head"), workspace["Map Items"].Cake.TouchInterest.Parent, 0)
+firetouchinterest(game.Players.LocalPlayer.Character:WaitForChild("Head"), workspace["Map Items"].Cake.TouchInterest.Parent, 1)
+firetouchinterest(game.Players.LocalPlayer.Character:WaitForChild("Head"), workspace["Map Items"].Pizza.TouchInterest.Parent, 0)
+firetouchinterest(game.Players.LocalPlayer.Character:WaitForChild("Head"), workspace["Map Items"].Pizza.TouchInterest.Parent, 1)
+  	end    
+})
+
+Tab6:AddButton({
+	Name = "Get cake badge",
+	Callback = function()
+firetouchinterest(game.Players.LocalPlayer.Character:WaitForChild("Head"), workspace["Map Items"].Cake.TouchInterest.Parent, 0)
+firetouchinterest(game.Players.LocalPlayer.Character:WaitForChild("Head"), workspace["Map Items"].Cake.TouchInterest.Parent, 1)
+  	end    
+})
+
+Tab6:AddButton({
+	Name = "Get boing badge",
+	Callback = function()
+game:GetService("ReplicatedStorage"):WaitForChild("Remote Events"):WaitForChild("BigMushroomEvent"):FireServer()
+  	end    
+})
+
+Tab6:AddButton({
+	Name = "Get Alchemist badge (Needs 750p and cake) (Use priv server)",
+	Callback = function()
+      		game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer("Soap")
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").ActivateStarted:FireServer("Normal")
+wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-25,35,110)
+wait(0.25)
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilityEvent:FireServer(1)
+wait(0.1)
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").Respawn:FireServer()
+wait(3.75)
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer("Cake")
+wait(0.1)
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").ActivateStarted:FireServer("Normal")
+wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-25,35,110)
+wait(0.25)
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilityEvent:FireServer(1)
+wait(0.1)
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").Respawn:FireServer()
+wait(3.75)
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer("Glue")
+wait(0.1)
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").ActivateStarted:FireServer("Normal")
+wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-25,35,110)
+wait(0.25)
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilityEvent:FireServer(1)
+wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-25,35,106)
+  	end    
+})
+
+Tab6:AddButton({
+	Name = "Get Gelatinous badge (Needs 1450p) (Use priv server)",
+	Callback = function()
+      		game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").ActivateStarted:FireServer("Normal")
+firetouchinterest(game.Players.LocalPlayer.Character:WaitForChild("Head"), workspace["Map Items"].Gel.TouchInterest.Parent, 0)
+firetouchinterest(game.Players.LocalPlayer.Character:WaitForChild("Head"), workspace["Map Items"].Gel.TouchInterest.Parent, 1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-25.5,34,110)
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").Respawn:FireServer()
+wait(3.75)
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer("Slime")
+wait(0.1)
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").ActivateStarted:FireServer("Normal")
+wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-25,35,110)
+wait(0.25)
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilityEvent:FireServer(1)
+wait(0.1)
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").Respawn:FireServer()
+wait(3.75)
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer("Mushroom")
+wait(0.1)
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").ActivateStarted:FireServer("Normal")
+wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-25,35,110)
+wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-25,35,106)
+  	end    
+})
+
+
+Tab1:AddToggle({
+                    Name = "Auto Kill Boss",
+                    Default = false,
+                    Callback = function(Value)
+if game.Workspace:FindFirstChild("Dog") then
+Boss = "Dog"
+   elseif game.Workspace:FindFirstChild("Cat") then
+Boss = "Cat"
+   elseif game.Workspace:FindFirstChild("Tree Lord") then
+Boss = "Tree Lord"
+   elseif game.Workspace:FindFirstChild("Mushroom King") then
+Boss = "Mushroom King"
+   elseif game.Workspace:FindFirstChild("Scarecrow") then
+Boss = "Scarecrow"
+end
+AutoKillBoss = Value
+if Boss ~= nil then
+                while AutoKillBoss do
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+end
+end
+end
+                })
+
+Tab1:AddToggle({
+                    Name = "Auto Remove Nametag ",
+                    Default = false,
+                    Callback = function(Value)
+AutoRemoveNameTag = Value
+        if AutoRemoveNameTag then
+        game.Players.LocalPlayer.Character:FindFirstChild("Head")["Name Tag"].TextLabel:Destroy()
+            game.Players.LocalPlayer.CharacterAdded:Connect(function()
+                if AutoRemoveNameTag then
+                repeat task.wait()
+                until game.Players.LocalPlayer.Character:FindFirstChild("Head")
+                game.Players.LocalPlayer.Character:FindFirstChild("Head")["Name Tag"].TextLabel:Destroy()
+                end
+            end)
+        end
+end
+                })
+
+Tab14:AddButton({
+	Name = "Get Portal Mastery (Use in arena) (Resets character)",
+	Callback = function()
+firetouchinterest(game.Players.LocalPlayer.Character:WaitForChild("Head"), workspace["Portal Facility"].Rift.Portal.Front.TouchInterest.Parent, 0)
+firetouchinterest(game.Players.LocalPlayer.Character:WaitForChild("Head"), workspace["Portal Facility"].Rift.Portal.Front.TouchInterest.Parent, 1)
+  	end    
+})
+
+Tab1:AddButton({
+	Name = "make engineer hitboxs large",
+	Callback = function()
+	if game.Players.LocalPlayer.leaderstats.Ability.Value == "Engineer" then
+      		local model
+
+for i,v in pairs(game:GetService("Workspace")["Engineer Builds"]:GetDescendants()) do
+if v == game.Players.LocalPlayer.Character.Humanoid.SeatPart then
+   model = v.Parent.Parent
+   end
+end
+getgenv().shid = true
+while getgenv().shid do
+   task.wait()
+for i,v in pairs(game.Players:GetPlayers()) do
+   firetouchinterest(Workspace:WaitForChild(v.Name):WaitForChild("HumanoidRootPart"),model.Floor.Part,0)
+   task.wait(0.01)
+   firetouchinterest(Workspace:WaitForChild(v.Name):WaitForChild("HumanoidRootPart"),model.Floor.Part,1)
+end
+end
+              else
+OrionLib:MakeNotification({Name = "Something's wrong",Content = "You don't have Engineer equipped",Image = "rbxassetid://7733658504",Time = 5})
+end
+  	end    
+})
+
+Tab1:AddButton({
+	Name = "Get 150 punches from quests (Needs at least 250 punches)",
+	Callback = function()
+	Location = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+      		game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").RequestQuestEvent:InvokeServer("Buy an Item from the Wood Shack")
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").BuyItem:FireServer("Gain Kick")
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").RequestQuestEvent:InvokeServer("Find The Backrooms")
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-122,21,-119)
+wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = Location
+  	end    
+})
+
+Tab3:AddToggle({
+                    Name = "Expand others' hitboxes",
+                    Default = false,
+                    Callback = function(Value)
+Hitbox = Value
+if Hitbox == false then
+for i,v in pairs(game.Players:GetChildren()) do
+                    if v ~= game.Players.LocalPlayer then
+                        v.Character.HumanoidRootPart.Size = Vector3.new(2, 2, 1)
+                        v.Character.HumanoidRootPart.Transparency = 1
+                    end
+                end
+end
+while Hitbox do
+for i,v in pairs(game.Players:GetChildren()) do
+                    if v ~= game.Players.LocalPlayer then
+                        v.Character.HumanoidRootPart.Size = Vector3.new(30,30,30)
+                        v.Character.HumanoidRootPart.Transparency = 0.75
+                    end
+                end
+task.wait()
+end
+end
+                })
+                
+                Tab3:AddSlider({
+	Name = "Reach HitBox | same as the other hitboxs but a slider |",
+	Min = 2,
+	Max = 30,
+	Default = 10,
+	Color = Color3.fromRGB(255,255,255),
+	Increment = 1,
+	ValueName = "Reach",
+	Callback = function(Value)
+		_G.ReachHitbox = Value
+	end    
+})
+
+Tab3:AddToggle({
+	Name = "Hitbox Player",
+	Default = false,
+	Callback = function(Value)
+_G.HitboxPlayer = Value
+while _G.HitboxPlayer do
+for i,v in pairs(game.Players:GetChildren()) do
+                    if v ~= game.Players.LocalPlayer and v.Character and v.Character:FindFirstChild("HumanoidRootPart") then
+                        v.Character.HumanoidRootPart.Size = Vector3.new(_G.ReachHitbox,_G.ReachHitbox,_G.ReachHitbox)
+                        v.Character.HumanoidRootPart.Transparency = 0.75
+                    end
+                end
+task.wait()
+end
+if _G.HitboxPlayer == false then
+for i,v in pairs(game.Players:GetChildren()) do
+                    if v ~= game.Players.LocalPlayer and v.Character and v.Character:FindFirstChild("HumanoidRootPart") then
+                        v.Character.HumanoidRootPart.Size = Vector3.new(2, 2, 1)
+                        v.Character.HumanoidRootPart.Transparency = 1
+                    end
+                end
+end
+	end    
+})
+
+Tab3:AddToggle({
+                    Name = "E Ability Spam (All abilities)",
+                    Default = false,
+                    Callback = function(Value)
+AbilitySpam = Value
+while AbilitySpam do
+local args = {
+    [1] = 1
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilityEvent:FireServer(unpack(args))
+
+task.wait()
+end
+                    end    
+                })
+
+Tab3:AddToggle({
+                    Name = "Q Ability Spam (All abilities)",
+                    Default = false,
+                    Callback = function(Value)
+AbilitySpam = Value
+while AbilitySpam do
+local args = {
+    [1] = 2
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilityEvent:FireServer(unpack(args))
+
+task.wait()
+end
+                    end    
+                })
+
+Tab3:AddToggle({
+                    Name = "R Ability Spam (All abilities)",
+                    Default = false,
+                    Callback = function(Value)
+AbilitySpam = Value
+while AbilitySpam do
+local args = {
+    [1] = 3
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilityEvent:FireServer(unpack(args))
+
+task.wait()
+end
+                    end    
+                })
+
+Tab3:AddToggle({
+                    Name = "Q and E Ability Spam (All abilities)",
+                    Default = false,
+                    Callback = function(Value)
+AbilitySpam = Value
+while AbilitySpam do
+local args = {
+    [1] = 2
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilityEvent:FireServer(unpack(args))
+
+local args = {
+    [1] = 1
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilityEvent:FireServer(unpack(args))
+
+task.wait()
+end
+                    end    
+                })
+
+
+
+Tab3:AddToggle({
+                    Name = "R Q E Ability Spam (All abilities)",
+                    Default = false,
+                    Callback = function(Value)
+AbilitySpam = Value
+while AbilitySpam do
+local args = {
+    [1] = 3
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilityEvent:FireServer(unpack(args))
+
+local args = {
+    [1] = 2
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilityEvent:FireServer(unpack(args))
+
+local args = {
+    [1] = 1
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilityEvent:FireServer(unpack(args))
+
+task.wait()
+end
+                    end    
+                })
+
+Tab2:AddButton({
+	Name = "default",
+	Callback = function()
+   local args = {
+    [1] = "Default"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab2:AddButton({
+	Name = "soda",
+	Callback = function()
+   local args = {
+    [1] = "Soda"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "teleportation",
+	Callback = function()
+   local args = {
+    [1] = "Teleportation"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "shife",
+	Callback = function()
+   local args = {
+    [1] = "Shift"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "gravity",
+	Callback = function()
+   local args = {
+    [1] = "Gravity"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "glue",
+	Callback = function()
+local args = {
+    [1] = "Glue"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "Boomerang",
+	Callback = function()
+local args = {
+    [1] = "Boomerang"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "soap",
+	Callback = function()
+local args = {
+    [1] = "Soap"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "grapple",
+	Callback = function()
+local args = {
+    [1] = "Grapple"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "Robot",
+	Callback = function()
+local args = {
+    [1] = "Robot"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "buff",
+	Callback = function()
+local args = {
+    [1] = "Buff"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "slime",
+	Callback = function()
+local args = {
+    [1] = "Slime"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "mushroom",
+	Callback = function()
+local args = {
+    [1] = "Mushroom"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "bounty hunter",
+	Callback = function()
+local args = {
+    [1] = "Bounty Hunter"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "overcharge",
+	Callback = function()
+local args = {
+    [1] = "Overcharge"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "hacker programmer",
+	Callback = function()
+local args = {
+    [1] = "Programmer"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "deflect",
+	Callback = function()
+local args = {
+    [1] = "Deflect"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "barrier",
+	Callback = function()
+local args = {
+    [1] = "Barrier"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "magnet",
+	Callback = function()
+local args = {
+    [1] = "Magnet"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "static",
+	Callback = function()
+local args = {
+    [1] = "Static"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "stone",
+	Callback = function()
+local args = {
+    [1] = "Stone"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "snow",
+	Callback = function()
+local args = {
+    [1] = "Snow"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "card",
+	Callback = function()
+local args = {
+    [1] = "Cards"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "meteor",
+	Callback = function()
+local args = {
+    [1] = "Meteor"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "plant",
+	Callback = function()
+local args = {
+    [1] = "Plant"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "lava",
+	Callback = function()
+local args = {
+    [1] = "Lava"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "blood god",
+	Callback = function()
+local args = {
+    [1] = "Blood God"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "bone",
+	Callback = function()
+local args = {
+    [1] = "Bone"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "biotic",
+	Callback = function()
+local args = {
+    [1] = "Bionic"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "crystal",
+	Callback = function()
+local args = {
+    [1] = "Crystal"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "storm",
+	Callback = function()
+local args = {
+    [1] = "Storm"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "paladin",
+	Callback = function()
+local args = {
+    [1] = "Paladin"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "devour of soul",
+	Callback = function()
+local args = {
+    [1] = "Devourer of Souls"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "time",
+	Callback = function()
+local args = {
+    [1] = "Time"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "freeze",
+	Callback = function()
+local args = {
+    [1] = "Freeze"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "pirate",
+	Callback = function()
+local args = {
+    [1] = "Pirate"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "cosmo",
+	Callback = function()
+local args = {
+    [1] = "Cosmos"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "quantum",
+	Callback = function()
+local args = {
+    [1] = "Quantum"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "railgun",
+	Callback = function()
+local args = {
+    [1] = "Railgun"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "stardust",
+	Callback = function()
+local args = {
+    [1] = "Stardust"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "plasma",
+	Callback = function()
+local args = {
+    [1] = "Plasma"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+local Section = Tab2:AddSection({
+	Name = "badge ability"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab2:AddButton({
+	Name = "randomizer",
+	Callback = function()
+local args = {
+    [1] = "Randomize"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "cake",
+	Callback = function()
+local args = {
+    [1] = "Cake"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "bomb",
+	Callback = function()
+local args = {
+    [1] = "Bomb"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "engineer",
+	Callback = function()
+local args = {
+    [1] = "Engineer"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "combo",
+	Callback = function()
+local args = {
+    [1] = "Combo"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "hero of justice",
+	Callback = function()
+local args = {
+    [1] = "Hero of Justice"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "spring",
+	Callback = function()
+local args = {
+    [1] = "Spring"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "brick battler",
+	Callback = function()
+local args = {
+    [1] = "Brickbattler"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "lemon",
+	Callback = function()
+local args = {
+    [1] = "Lemon"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "spectral",
+	Callback = function()
+local args = {
+    [1] = "Spectral"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "tree",
+	Callback = function()
+local args = {
+    [1] = "Tree"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "hivemind",
+	Callback = function()
+local args = {
+    [1] = "Hivemind"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "portal",
+	Callback = function()
+local args = {
+    [1] = "Portal"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "pulse",
+	Callback = function()
+local args = {
+    [1] = "Pulse"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "mystic",
+	Callback = function()
+local args = {
+    [1] = "Mystic"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "return",
+	Callback = function()
+local args = {
+    [1] = "Return"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "jello",
+	Callback = function()
+local args = {
+    [1] = "Jello"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "bubble",
+	Callback = function()
+local args = {
+    [1] = "Bubble"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "defender",
+	Callback = function()
+local args = {
+    [1] = "Defender"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "alchemist",
+	Callback = function()
+local args = {
+    [1] = "Alchemist"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "army",
+	Callback = function()
+local args = {
+    [1] = "Army"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "farmer",
+	Callback = function()
+local args = {
+    [1] = "Farmer"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "gingerbread",
+	Callback = function()
+local args = {
+    [1] = "Gingerbread"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "mech",
+	Callback = function()
+local args = {
+    [1] = "Mech"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "Ufo",
+	Callback = function()
+local args = {
+    [1] = "UFO"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "double jump",
+	Callback = function()
+local args = {
+    [1] = "Double Jump"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+local Section = Tab2:AddSection({
+	Name = "secret ability"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab2:AddButton({
+	Name = "energy drink",
+	Callback = function()
+local args = {
+    [1] = "Energy Drink"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "coffee",
+	Callback = function()
+local args = {
+    [1] = "Coffee"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "spectator",
+	Callback = function()
+local args = {
+    [1] = "Spectator"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "jester",
+	Callback = function()
+local args = {
+    [1] = "Jester"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "butter",
+	Callback = function()
+local args = {
+    [1] = "Butter"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "moai",
+	Callback = function()
+local args = {
+    [1] = "Moai"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "cheese",
+	Callback = function()
+local args = {
+    [1] = "Cheese"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "dice",
+	Callback = function()
+local args = {
+    [1] = "Dice"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab2:AddButton({
+	Name = "burger",
+	Callback = function()
+local args = {
+    [1] = "Burger"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").AbilitySelect:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab2:AddButton({
+	Name = "kick have to be at arena",
+	Callback = function()
+local args = {
+    [1] = "Gain Kick"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").BuyItem:FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+
+Tab14:AddToggle({
+                    Name = "Auto Kill Boss this included inventor | need Bounty Hunter |",
+                    Default = false,
+                    Callback = function(Value)
+                    if game.Players.LocalPlayer.leaderstats.Ability.Value == "Bounty Hunter" then
+if game.Workspace:FindFirstChild("Dog") then
+Boss = "Dog"
+   elseif game.Workspace:FindFirstChild("Cat") then
+Boss = "Cat"
+   elseif game.Workspace:FindFirstChild("Tree Lord") then
+Boss = "Tree Lord"
+   elseif game.Workspace:FindFirstChild("Mushroom King") then
+Boss = "Mushroom King"
+   elseif game.Workspace:FindFirstChild("Scarecrow") then
+Boss = "Scarecrow"
+elseif game.Workspace:FindFirstChild("Inventor") then
+Boss = "Inventor"
+end
+AutoKillBoss = Value
+if Boss ~= nil then
+                while AutoKillBoss do
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+end
+end
+              else
+OrionLib:MakeNotification({Name = "Something's wrong",Content = "You don't have Bounty Hunter equipped",Image = "rbxassetid://7733658504",Time = 5})
+end
+end
+                })
+
+Tab6:AddButton({
+	Name = "get lemon",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-123, 19, -119)
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab6:AddButton({
+	Name = "get spectral need lemon and use E",
+	Callback = function()
+	if game.Players.LocalPlayer.leaderstats.Ability.Value == "Lemon" then
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(147, 26, 147)
+                    else
+OrionLib:MakeNotification({Name = "Something's wrong",Content = "You don't have Lemon equipped",Image = "rbxassetid://7733658504",Time = 5})
+end
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+                   
+
+Tab5:AddToggle({
+                   Name = "Anti Timestop | PATCHED |",
+                   Default = false,
+                   Callback = function(Value)
+Jebaiittttt = value
+while Jebaiittttt do
+                for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+                    if v.ClassName == "Part" then
+                        v.Anchored = false
+                    end
+                end
+task.wait()
+end
+ 
+                   end
+                   })
+
+Tab14:AddButton({
+                Name = "Tp Defender Boss fight place | need Defender |",
+                Callback = function()
+                if game.Players.LocalPlayer.leaderstats.Ability.Value == "Defender" then
+ 
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-21, 20 ,120)                
+wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-36, 33 , 107)
+wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(87, 19, 111)
+wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(82, 62, 104)
+wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-46, 20, 131)
+wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(79, 50 , -103)
+wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-87, 31 , 127)                
+wait(0.3)                
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(9999, 53, 29998)                
+ 
+               else
+OrionLib:MakeNotification({Name = "Something's wrong",Content = "You don't have Defender equipped",Image = "rbxassetid://7733658504",Time = 5})
+end
+                end
+                })
+
+Tab14:AddButton({
+                Name = "Get Lemon mastery (abit Buggy)",
+                Callback = function()
+                if game.Players.LocalPlayer.leaderstats.Ability.Value == "Lemon" then
+ 
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-123, 18, -119)
+wait(5)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-20007, 394, 22487)
+wait(0.3)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-19513, 393, 22487)
+wait(0.3)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-19513, 393, 21993)
+wait(0.3)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-20007, 393, 22487)                
+ 
+ 
+ 
+ 
+ 
+ 
+               else
+OrionLib:MakeNotification({Name = "Something's wrong",Content = "You don't have Lemon equipped",Image = "rbxassetid://7733658504",Time = 5})
+end
+                end
+                })
+
+
+Tab5:AddButton({
+                 Name = "Anti void but a button",
+                 Callback =  function()
+ 
+local Instance = Instance.new("Part")
+Instance.Parent = workspace
+Instance.Anchored = true
+Instance.Size = Vector3.new(999999,25,999999)
+Instance.Position = Vector3.new(9, 0, -2)         
+ 
+                 end
+                 })
+
+Tab1:AddButton({
+	Name = "become bot\nif you click this you will become a bot forever in server",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/VxleLUA/Zephyr/main/System/Features/CBotLoader.lua"))()
+  	end    
+})
+
+Tab1:AddButton({
+                 Name = "bot speed",
+                 Callback =  function()
+ 
+-- Get the local player
+local player = game.Players.LocalPlayer
+
+-- Set the walkspeed to your desired value (e.g., 16)
+player.Character.Humanoid.WalkSpeed = 50   
+ 
+                 end
+                 })
+
+local Section = Tab:AddSection({
+	Name = "admin"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+
+Tab:AddButton({
+	Name = "fates admin",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+
+Tab:AddButton({
+	Name = "QuirkyCMD",
+	Callback = function()
+loadstring(game:HttpGet("https://gist.github.com/someunknowndude/38cecea5be9d75cb743eac8b1eaf6758/raw"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "KULTHX BAR",
+	Callback = function()
+   
+loadstring(game:HttpGet("https://raw.githubusercontent.com/nizartitwaniii/KulthX-BAR/main/KulthX%20bar"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "nameless admin",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "inf yield",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+      		print("button pressed")
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "executors"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+
+Tab:AddButton({
+	Name = "arceus x",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Giangplay/Script/main/Arceus_X_V3.lua"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "codex",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Giangplay/Script/main/Codex.lua"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "knrl",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Giangplay/Script/main/Knrl.lua"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "krypton",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Giangplay/Script/main/Krypton.lua"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "synapse 🙄",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Giangplay/Script/main/Synapse_X_PE.lua"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "delta",
+	Callback = function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Delta-Executor-J-O-K-E-7664"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "kiwi",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Giangplay/Script/main/Kiwi-Ui.lua"))()
+      		print("button pressed")
+  	end    
+})
+Tab8:AddToggle({
+                    Name = " Spam bouncy mushroom troll>:)",
+                    Default = false,
+                    Callback = function(Value)
+AbilitySpam = Value
+while AbilitySpam do
+game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").BigMushroomEvent:FireServer()
+
+task.wait()
+end
+                    end    
+                })
+
+Tab8:AddToggle({
+                    Name = " Spam ability wars🤡",
+                    Default = false,
+                    Callback = function(Value)
+AbilitySpam = Value
+while AbilitySpam do
+local args = {
+    [1] = "ability war \240\159\164\161 ability wars \240\159\164\161ability wars \240\159\164\161ability wars \240\159\164\161",
+    [2] = "All"
+}
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+wait(2.1)
+
+task.wait()
+end
+                    end    
+                })
+Tab8:AddToggle({
+                    Name = " Spam Hahhha>:)",
+                    Default = false,
+                    Callback = function(Value)
+AbilitySpam = Value
+while AbilitySpam do
+local args = {
+    [1] = "hahhahaha",
+    [2] = "All"
+}
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+wait(2.1)
+
+task.wait()
+end
+                    end    
+                })
+
+Tab14:AddToggle({
+                    Name = "Auto Kill Boss astral boss included\ninstakill one shot not really",
+                    Default = false,
+                    Callback = function(Value)
+                    if game.Players.LocalPlayer.leaderstats.Ability.Value == "Defender" then
+if game.Workspace:FindFirstChild("Dog") then
+Boss = "Dog"
+   elseif game.Workspace:FindFirstChild("Cat") then
+Boss = "Cat"
+   elseif game.Workspace:FindFirstChild("Tree Lord") then
+Boss = "Tree Lord"
+   elseif game.Workspace:FindFirstChild("Mushroom King") then
+Boss = "Mushroom King"
+   elseif game.Workspace:FindFirstChild("Scarecrow") then
+Boss = "Scarecrow"
+   elseif game.Workspace:FindFirstChild("Astrum Deus") then
+Boss = "Astrum Deus"
+end
+AutoKillBoss = Value
+if Boss ~= nil then
+                while AutoKillBoss do
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+end
+end
+else
+OrionLib:MakeNotification({Name = "Something's wrong",Content = "You don't have Defender equipped",Image = "rbxassetid://7733658504",Time = 5})
+end
+end
+                })
+Tab9:AddButton({
+	Name = "teleport to team battles | punch farm |",
+	Callback = function()
+game:GetService("TeleportService"):Teleport(10626447503)
+  	end    
+})
+Tab9:AddButton({
+	Name = "teleport to duels | view |",
+	Callback = function()
+game:GetService("TeleportService"):Teleport(10201596675)
+  	end    
+})
+Tab9:AddButton({
+	Name = "teleport to brickbattler | Fight! | | don't need time |",
+	Callback = function()
+game:GetService("TeleportService"):Teleport(16137324744)
+  	end    
+})
+Tab5:AddToggle({
+	Name = "Anti void",
+	Default = false,
+	Callback = function(bool)
+ANTI_VOID.CanCollide = bool
+	end    
+})
+
+--[[
+Name = <string> - The name of the toggle.
+Default = <bool> - The default value of the toggle.
+Callback = <function> - The function of the toggle.
+]]
+Tab1:AddButton({
+	Name = "create safe spot | Credit to guy that exists |",
+	Callback = function()
+local SafeSpot = Instance.new("Part", workspace)
+SafeSpot.Position = Vector3.new(math.random(-25000,-2500),100,math.random(-25000,-2500))
+SafeSpot.Name = "Spot"
+SafeSpot.Size = Vector3.new(500,50,500)
+SafeSpot.Anchored = true
+SafeSpot.Transparency = .5
+  	end    
+})
+Tab1:AddButton({
+	Name = "TP to Safe spot",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Spot.CFrame * CFrame.new(0,50,0)
+  	end    
+})
+game.Players.LocalPlayer.Chatted:Connect(function(msg)
+	if msg == "dev mode" then
+	local Window = OrionLib:MakeWindow({IntroText = "developer Mode", IntroIcon = "rbxassetid://16574558113",Name = "✌️🇵🇭 Tester Hub Ability Wars no longer being updated🇵🇭✌️", HidePremium = false, SaveConfig = true, IntroEnabled = true, ConfigFolder = "Tester Hub ability wars"})
+local BETA_Tab = Window:MakeTab({
+	Name = "BETA!",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+local UPCOMING_Tab = Window:MakeTab({
+	Name = "UPCOMING",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+local TESTING_Tab = Window:MakeTab({
+	Name = "testing",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+
+
+OrionLib:MakeNotifi({
+	Title = "Wow!",
+	Text = "Hello developer welcome to beta version were we test",
+	Time = 5
+})
+--[[
+Title = <string> - The title of the notification.
+Text = <string> - The content of the notification.
+Time = <number> - The duration of the notfication.
+]]
+local Section = BETA_Tab:AddSection({
+	Name = "this is the beta tab where i test or test beta script"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+local Section = BETA_Tab:AddSection({
+	Name = "alot of button from this tab was removed remains esp for beta"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+local Section = UPCOMING_Tab:AddSection({
+	Name = "upcoming Update or be deleted alot of buttons are deleted"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+local Section = TESTING_Tab:AddSection({
+	Name = "Up for testing"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+UPCOMING_Tab:AddToggle({
+                    Name = "much higher damage to boss Up coming Beta",
+                    Default = false,
+                    Callback = function(Value)
+if game.Workspace:FindFirstChild("Dog") then
+Boss = "Dog"
+   elseif game.Workspace:FindFirstChild("Cat") then
+Boss = "Cat"
+   elseif game.Workspace:FindFirstChild("Tree Lord") then
+Boss = "Tree Lord"
+   elseif game.Workspace:FindFirstChild("Mushroom King") then
+Boss = "Mushroom King"
+   elseif game.Workspace:FindFirstChild("Scarecrow") then
+Boss = "Scarecrow"
+end
+AutoKillBoss = Value
+if Boss ~= nil then
+                while AutoKillBoss do
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+game.ReplicatedStorage["Remote Events"].Punch:FireServer(workspace:WaitForChild(Boss),Vector3.new,0,workspace[Boss]:FindFirstChild("Right Leg"))
+wait(.1)
+end
+end
+end
+                })
+                
+                
+                
+              
+              
+
+
+	end
+end)
+Tab4:AddSlider({
+	Name = "Gravity",
+	Min = 0,
+	Max = 600,
+	Default = 196,
+	Color = Color3.fromRGB(128, 0, 128),
+	Increment = 1,
+	ValueName = "Gravity",
+	Callback = function(Value)
+game.Workspace.Gravity = Value
+Gravity = Value
+	end    
+})
+
+Tab4:AddToggle({
+	Name = "Gravity Set Auto",
+	Default = false,
+	Callback = function(Value)
+		KeepGravity = Value
+           while KeepGravity do
+              if game.Players.LocalPlayer.Character:FindFirstChild("Humanoid") ~= nil and game.Workspace.Gravity ~= nil and game.Workspace.Gravity ~= Gravity then
+                  game.Workspace.Gravity = Gravity
+              end
+task.wait()
+         end
+	end    
+})
+
+Tab4:AddTextbox({
+	Name = "Players Teleport",
+	Default = "Username",
+	TextDisappear = false,
+	Callback = function(Value)
+local targetAbbreviation = Value
+local targetPlayer
+for _, v in pairs(game.Players:GetPlayers()) do
+if string.sub(v.Name, 1, #targetAbbreviation):lower() == targetAbbreviation:lower() then
+targetPlayer = v
+break
+end
+end
+if targetPlayer then
+_G.PlayerTeleport = targetPlayer.Name
+OrionLib:MakeNotification({Name = "Error",Content = "Found Player [ ".._G.PlayerTeleport.." ]",Image = "rbxassetid://7733658504",Time = 5})
+else
+OrionLib:MakeNotification({Name = "Error",Content = "Can't find player",Image = "rbxassetid://7733658504",Time = 5})
+end
+	end	  
+})
+Tab4:AddButton({
+	Name = "Teleport Player",
+	Callback = function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players[_G.PlayerTeleport].Character.HumanoidRootPart.CFrame
+  	end    
+})
+
+Tab4:AddTextbox({
+	Name = "View A Player",
+	Default = "Username",
+	TextDisappear = false,
+	Callback = function(Value)
+local targetAbbreviation = Value
+local targetPlayer
+for _, v in pairs(game.Players:GetPlayers()) do
+if string.sub(v.Name, 1, #targetAbbreviation):lower() == targetAbbreviation:lower() then
+targetPlayer = v
+break
+end
+end
+if targetPlayer then
+_G.ViewPlayer = targetPlayer.Name
+OrionLib:MakeNotification({Name = "Error",Content = "Found Player [ ".._G.ViewPlayer.." ]",Image = "rbxassetid://7733658504",Time = 5})
+else
+OrionLib:MakeNotification({Name = "Error",Content = "Can't find player",Image = "rbxassetid://7733658504",Time = 5})
+end
+	end	  
+})
+ViewPlayer = Tab4:AddToggle({
+	Name = "Automatically View Player",
+	Default = false,
+	Callback = function(Value)
+_G.PlayerView = Value
+if _G.PlayerView == false then
+if game.Workspace.CurrentCamera and game:GetService("Players").LocalPlayer.Character and game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Humanoid") then
+game.Workspace.CurrentCamera.CameraSubject = game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Humanoid")
+end
+end
+while _G.PlayerView do
+if game.Workspace.CurrentCamera and game.Players[_G.ViewPlayer].Character and game.Players[_G.ViewPlayer].Character:FindFirstChildOfClass("Humanoid") then
+game.Workspace.CurrentCamera.CameraSubject = game.Players[_G.ViewPlayer].Character:FindFirstChildOfClass("Humanoid")
+end
+task.wait()
+end
+	end    
+})
+Tab4:AddButton({
+	Name = "Fly Gui",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab8:AddButton({
+	Name = "Troll gui | fling | bring players | more |",
+	Callback = function()
+      		loadstring(game:HttpGet(("https://pastebin.com/raw/5seCbYFa"),true))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+local Section = Tab10:AddSection({
+	Name = "This gives you free ability but is a GUI"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab10:AddButton({
+	Name = "Flashback | reverse time | return |",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Giangplay/Script/main/FlashBack.lua"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab10:AddButton({
+	Name = "view player | spectator |",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Giangplay/Script/main/View_Player.lua"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab10:AddButton({
+	Name = "TP To player | Portal? |",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Giangplay/Script/main/TP_Player.lua"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab10:AddButton({
+	Name = "Cam for mobile | spectator | permanently be spying |",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Giangplay/Script/main/Freecam_mobile.lua"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+AntiAdmin = Tab5:AddToggle({
+	Name = "Anti Mod | Admin",
+	Default = false,
+	Callback = function(Value)
+AntiMods = Value
+while AntiMods do
+for i,v in pairs(game.Players:GetChildren()) do
+if v:GetRankInGroup(13233520) >= 2 then
+_G.AntiKick = false
+game.Players.LocalPlayer:Kick("High Rank Player Detected.".." [ "..v.Name.." ]")
+break
+end
+end
+task.wait()
+end
+	end    
+})
+AntiRecord = Tab5:AddToggle({
+	Name = "Anti Record | evidence",
+	Default = false,
+	Callback = function(Value)
+_G.AntiRecord = Value
+	end    
+})
+for i,p in pairs(game.Players:GetChildren()) do
+if p ~= game.Players.LocalPlayer then
+p.Chatted:Connect(function(message)
+Words = message:split(" ")
+if _G.AntiRecord == true then
+for i, v in pairs(Words) do
+if v:lower():match("recording") or v:lower():match(" rec") or v:lower():match("record") or v:lower():match("discor") or v:lower():match(" disco") or v:lower():match(" disc") or v:lower():match("ticket") or v:lower():match("tickets") or v:lower():match(" ds") or v:lower():match(" dc") or v:lower():match("dizzy") or v:lower():match("dizzycord") or v:lower():match(" clip") or v:lower():match("proof") or v:lower():match("evidence") then
+AntiKick:Set(false)
+game.Players.LocalPlayer:Kick("Possible player recording detected.".." [ "..p.Name.." ]".." [ "..message.." ]")
+end
+end
+end
+end)
+end
+end
+game.Players.PlayerAdded:Connect(function(Player)
+Player.Chatted:Connect(function(message)
+Words = message:split(" ")
+if _G.AntiRecord == true then
+for i, v in pairs(Words) do
+if v:lower():match("recording") or v:lower():match(" rec") or v:lower():match("record") or v:lower():match("discor") or v:lower():match(" disco") or v:lower():match(" disc") or v:lower():match("ticket") or v:lower():match("tickets") or v:lower():match(" ds") or v:lower():match(" dc") or v:lower():match("dizzy") or v:lower():match("dizzycord") or v:lower():match(" clip") or v:lower():match("proof") or v:lower():match("evidence") then
+AntiKick:Set(false)
+game.Players.LocalPlayer:Kick("Possible player recording detected.".." [ "..Player.Name.." ]".." [ "..message.." ]")
+end
+end
+end
+end)
+end)
+
+Tab3:AddButton({
+	Name = "ESP",
+	Callback = function()
+-- Enable ESP
+game:GetService("RunService").RenderStepped:Connect(function()
+    for _, player in ipairs(game:GetService("Players"):GetPlayers()) do
+        if player ~= game:GetService("Players").LocalPlayer then
+            local character = player.Character
+            if character and character:FindFirstChild("HumanoidRootPart") then
+                local espPart = character.HumanoidRootPart:FindFirstChild("ESP")
+                if not espPart then
+                    espPart = Instance.new("BoxHandleAdornment")
+                    espPart.Name = "ESP"
+                    espPart.Size = character.HumanoidRootPart.Size + Vector3.new(0, 0.2, 0)
+                    espPart.Color3 = Color3.fromRGB(255, 105, 180)
+                    espPart.Transparency = 0.2
+                    espPart.AlwaysOnTop = true
+                    espPart.ZIndex = 5
+                    espPart.Adornee = character.HumanoidRootPart
+                    espPart.Parent = character.HumanoidRootPart
+                end
+            end
+        end
+    end
+end)
+  	end    
+})
+
+Tab13:AddParagraph("tips for farming punches in this script","1. make engineer hitbox big it gives you the amount of players in the arena punches\n2. use cheese and set speed to 34 to farm is very fun to\n3. dangerous punch farm | use kill aura or punch aura to get alot of punch\n4. use the auto complate quest to get more punch") -- Use \n to make a new space
+
+Tab6:AddToggle({
+	Name = "get Ultimate Slayer of the Galaxy: Conqueror of Gods Badge",
+	Default = false,
+	Callback = function(Value)
+AbilitySpam = Value
+while AbilitySpam do
+fireclickdetector(game.workspace.Secrets.Jinx.Jinx.ClickDetector)
+task.wait()
+end
+	end    
+})
+
+--[[
+Name = <string> - The name of the toggle.
+Default = <bool> - The default value of the toggle.
+Callback = <function> - The function of the toggle.
+]]
+
+Tab14:AddButton({
+	Name = "Get Key | without teleporting |",
+	Callback = function()
+      		firetouchinterest(game.Players.LocalPlayer.Character:WaitForChild("Head"), workspace["Map Items"].Key.TouchInterest.Parent, 0)
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+local Section = Tab14:AddSection({
+	Name = "Mastery's"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab14:AddButton({
+	Name = "get Army Mastery Coins",
+	Callback = function()
+	if game.Players.LocalPlayer.leaderstats.Ability.Value == "Army" then
+      		firetouchinterest(game.Players.LocalPlayer.Character:WaitForChild("Head"), workspace.Coin.TouchInterest.Parent, 0)
+      else
+OrionLib:MakeNotification({Name = "Something's wrong",Content = "You don't have Army equipped",Image = "rbxassetid://7733658504",Time = 5})
+end
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab14:AddButton({
+	Name = "Healing potion | need alchemist mastery's |",
+	Callback = function()
+	if game.Players.LocalPlayer.leaderstats.Ability.Value == "Alchemist" then
+      		fireclickdetector(game.workspace["Alchemist Mastery Cauldron"].Detectors.Base.Mushroom.Plus.ClickDetector)
+              wait(0.0)
+              fireclickdetector(game.workspace["Alchemist Mastery Cauldron"].Detectors.Base.Mushroom.Plus.ClickDetector)
+              wait(0.0)
+              fireclickdetector(game.workspace["Alchemist Mastery Cauldron"].Detectors.Base.Mushroom.Plus.ClickDetector)
+              wait(0.0)
+              fireclickdetector(game.workspace["Alchemist Mastery Cauldron"].Detectors.Base.Mushroom.Plus.ClickDetector)
+              wait(0.0)
+              fireclickdetector(game.workspace["Alchemist Mastery Cauldron"].Detectors.Base.Mushroom.Plus.ClickDetector)
+              wait(0.0)
+              fireclickdetector(game.workspace["Alchemist Mastery Cauldron"].Detectors.Main.Brew.Main.ClickDetector)
+              wait(3.1)
+              else
+OrionLib:MakeNotification({Name = "Something's wrong",Content = "You don't have Alchemist equipped",Image = "rbxassetid://7733658504",Time = 5})
+end
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab14:AddButton({
+	Name = "Speed potion | need alchemist mastery's |",
+	Callback = function()
+	if game.Players.LocalPlayer.leaderstats.Ability.Value == "Alchemist" then
+      		fireclickdetector(game.workspace["Alchemist Mastery Cauldron"].Detectors.Base.Sugar.Plus.ClickDetector)
+              wait(0.0)
+              fireclickdetector(game.workspace["Alchemist Mastery Cauldron"].Detectors.Base.Sugar.Plus.ClickDetector)
+              wait(0.0)
+              fireclickdetector(game.workspace["Alchemist Mastery Cauldron"].Detectors.Base.Sugar.Plus.ClickDetector)
+              wait(0.0)
+              fireclickdetector(game.workspace["Alchemist Mastery Cauldron"].Detectors.Base.Sugar.Plus.ClickDetector)
+              wait(0.0)
+              fireclickdetector(game.workspace["Alchemist Mastery Cauldron"].Detectors.Base.Sugar.Plus.ClickDetector)
+              wait(0.0)
+              fireclickdetector(game.workspace["Alchemist Mastery Cauldron"].Detectors.Main.Brew.Main.ClickDetector)
+              wait(3.1)
+                            else
+OrionLib:MakeNotification({Name = "Something's wrong",Content = "You don't have Alchemist equipped",Image = "rbxassetid://7733658504",Time = 5})
+end
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab14:AddButton({
+	Name = "Strength potion | need alchemist mastery's |",
+	Callback = function()
+	if game.Players.LocalPlayer.leaderstats.Ability.Value == "Alchemist" then
+      		fireclickdetector(game.workspace["Alchemist Mastery Cauldron"].Detectors.Base.Cake.Plus.ClickDetector)
+              wait(0.0)
+              fireclickdetector(game.workspace["Alchemist Mastery Cauldron"].Detectors.Base.Cake.Plus.ClickDetector)
+              wait(0.0)
+              fireclickdetector(game.workspace["Alchemist Mastery Cauldron"].Detectors.Base.Cake.Plus.ClickDetector)
+              wait(0.0)
+              fireclickdetector(game.workspace["Alchemist Mastery Cauldron"].Detectors.Base.Cake.Plus.ClickDetector)
+              wait(0.0)
+              fireclickdetector(game.workspace["Alchemist Mastery Cauldron"].Detectors.Base.Cake.Plus.ClickDetector)
+              wait(0.0)
+              fireclickdetector(game.workspace["Alchemist Mastery Cauldron"].Detectors.Main.Brew.Main.ClickDetector)
+              wait(3.1)
+                            else
+OrionLib:MakeNotification({Name = "Something's wrong",Content = "You don't have Alchemist equipped",Image = "rbxassetid://7733658504",Time = 5})
+end
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab14:AddButton({
+	Name = "JumpPower potion | need alchemist mastery's |",
+	Callback = function()
+	if game.Players.LocalPlayer.leaderstats.Ability.Value == "Alchemist" then
+      		fireclickdetector(game.workspace["Alchemist Mastery Cauldron"].Detectors.Base.Moss.Plus.ClickDetector)
+              wait(0.0)
+              fireclickdetector(game.workspace["Alchemist Mastery Cauldron"].Detectors.Base.Moss.Plus.ClickDetector)
+              wait(0.0)
+              fireclickdetector(game.workspace["Alchemist Mastery Cauldron"].Detectors.Base.Moss.Plus.ClickDetector)
+              wait(0.0)
+              fireclickdetector(game.workspace["Alchemist Mastery Cauldron"].Detectors.Base.Moss.Plus.ClickDetector)
+              wait(0.0)
+              fireclickdetector(game.workspace["Alchemist Mastery Cauldron"].Detectors.Base.Moss.Plus.ClickDetector)
+              wait(0.0)
+              fireclickdetector(game.workspace["Alchemist Mastery Cauldron"].Detectors.Main.Brew.Main.ClickDetector)
+              wait(6.1)
+                            else
+OrionLib:MakeNotification({Name = "Something's wrong",Content = "You don't have Alchemist equipped",Image = "rbxassetid://7733658504",Time = 5})
+end
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab7:AddDropdown({
+	Name = "Classic Map",
+	Default = "",
+	Options = {"Arena", "inside the lobby","top of lobby", "house atic", "house", "in top of house", "pool", "mystic cave", "in top of mystic cave", "cave", "Crystal cave", "in top of cave n crystal cave", "giant tree", "inventor"},
+	Callback = function(Value)
+	if Value == "Arena" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5, 18, 12)
+elseif Value == "inside the lobby" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(5, 304, 5)
+elseif Value == "top of lobby" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-28, 329, 2)
+elseif Value == "house atic" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-20, 33, 118)
+elseif Value == "house" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-22, 18, 107)
+elseif Value == "in top of house" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-22, 49, 111)
+elseif Value == "pool" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-111, 24, 105)
+elseif Value == "mystic cave" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(93, 39, -94)
+elseif Value == "in top of mystic cave" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(97, 56, -95)
+elseif Value == "cave" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-92, 19, -115)
+elseif Value == "Crystal cave" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-91, 33, -98)
+elseif Value == "in top of cave n crystal cave" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-74, 56, -91)
+elseif Value == "giant tree" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(92, 85, 106)
+elseif Value == "inventor" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(91, 64, 103)
+end	
+	end    
+})
+
+--[[
+Name = <string> - The name of the dropdown.
+Default = <string> - The default value of the dropdown.
+Options = <table> - The options in the dropdown.
+Callback = <function> - The function of the dropdown.
+]]
+
+Tab7:AddDropdown({
+	Name = "Reimagined Map",
+	Default = "",
+	Options = {"Arena", "inside the lobby","top of lobby", "house atic", "house", "in top of house", "pool", "mystic cave", "cave", "Crystal cave", "in top of cave n crystal cave", "giant tree", "inventor"},
+	Callback = function(Value)
+	if Value == "Arena" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5, 18, 12)
+elseif Value == "inside the lobby" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(5, 304, 5)
+elseif Value == "top of lobby" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-28, 329, 2)
+elseif Value == "house atic" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4, 40, 107)
+elseif Value == "house" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3, 27, 102)
+elseif Value == "in top of house" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2, 59, 99)
+elseif Value == "pool" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-97, 22, 81)
+elseif Value == "mystic cave" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(91, 53, -86)
+elseif Value == "cave" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-90, 21, -94)
+elseif Value == "Crystal cave" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-117, 38, -84)
+elseif Value == "in top of cave n crystal cave" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-77, 104, -90)
+elseif Value == "giant tree" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(100, 92, 89)
+elseif Value == "inventor" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(98, -4, 69)
+end	
+	end    
+})
+
+--[[
+Name = <string> - The name of the dropdown.
+Default = <string> - The default value of the dropdown.
+Options = <table> - The options in the dropdown.
+Callback = <function> - The function of the dropdown.
+]]
+
+Tab7:AddDropdown({
+	Name = "Desert Map",
+	Default = "",
+	Options = {"Arena", "inside the lobby","top of lobby", "Witch Tent", "Tent", "in top of Tent", "pool", "mystic cave", "in top of mystic cave", "cave", "Crystal cave", "in top of cave n crystal cave", "Tower", "inventor"},
+	Callback = function(Value)
+	if Value == "Arena" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5, 18, 12)
+elseif Value == "inside the lobby" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(5, 304, 5)
+elseif Value == "top of lobby" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-28, 329, 2)
+elseif Value == "Witch Tent" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(23, 19, 111)
+elseif Value == "Tent" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-23, 23, 118)
+elseif Value == "in top of Tent" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-23, 43, 120)
+elseif Value == "pool" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-104, 20, 88)
+elseif Value == "mystic cave" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(95, 35, -98)
+elseif Value == "in top of mystic cave" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(96, 78, -105)
+elseif Value == "cave" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-88, 23, -104)
+elseif Value == "Crystal cave" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-88, 32, -96)
+elseif Value == "in top of cave n crystal cave" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-80, 59, -97)
+elseif Value == "Tower" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(103, 26, 96)
+elseif Value == "inventor" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(103, 70, 109)
+end	
+	end    
+})
+
+--[[
+Name = <string> - The name of the dropdown.
+Default = <string> - The default value of the dropdown.
+Options = <table> - The options in the dropdown.
+Callback = <function> - The function of the dropdown.
+]]
+
+Tab7:AddDropdown({
+	Name = "Secret Map",
+	Default = "",
+	Options = {"admin place  | secret place |", "admin place jail  | secret place |", "admin place fish tank  | secret place |", "backroom intop  | secret place |", "backroom inside  | secret place |", "mushroom cave  | secret place |", "portal to astral  | secret place |", "astral dimension  | secret place |", "astral dimension defender portal | secret place |", "astral dimension portal to portal mastery | secret place |", "inside portal mastery place  | secret place |", "end of the place of portal mastery  | secret place |"},
+	Callback = function(Value)
+	if Value == "admin place  | secret place |" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4736, 132, -4735)
+elseif Value == "admin place jail  | secret place |" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4785, 131, -4727)
+elseif Value == "admin place fish tank  | secret place |" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4747, 132, -4703)
+elseif Value == "backroom intop  | secret place |" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-7075, 112, -4999)
+elseif Value == "backroom inside  | secret place |" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-7153, 96, -5073)
+elseif Value == "mushroom cave  | secret place |" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-13034, 84, -5024)
+elseif Value == "portal to astral  | secret place |" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-107, 30, 126)
+elseif Value == "astral dimension  | secret place |" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(995, 16, 29986)
+elseif Value == "astral dimension defender portal | secret place |" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(989, 32, 29800)
+elseif Value == "astral dimension portal to portal mastery | secret place |" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1029, 34, 30203)
+elseif Value == "inside portal mastery place  | secret place |" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-27795, 77, 57587)
+elseif Value == "end of the place of portal mastery  | secret place |" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-27783, 445, 57926)
+end	
+	end    
+})
+
+--[[
+Name = <string> - The name of the dropdown.
+Default = <string> - The default value of the dropdown.
+Options = <table> - The options in the dropdown.
+Callback = <function> - The function of the dropdown.
+]]
+Tab15:AddParagraph("Instruction And Remember And Facts","Instruction\nTo Get Emotes To Put On The Emote Players Go To The Section Emote Ids\nHow Do I Play The Animation Just Copy Some Id in The Emote Ids\nAfter Finding An Emote Id Paste It At The TextBox And Click Play\nRemember\nThis Has No Sounds Only Animations\nRead The Instruction To play The Emotes\nThis is FE Everyone Can See\nFacts\nDid You Know That You Can create Custom Emotes by combining The IDs\nEveryOne Can See What you doing FE\nDid you know this used to be a scrap tab") -- Use \n to make a new space
+Tab15:AddParagraph("Update heres","Added custom ID section\nadded New IDs\nthe Textbox now disappear when click again") -- Use \n to make a new space
+local Section = Tab15:AddSection({
+	Name = "Emotes player"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab15:AddTextbox({
+	Name = "Emote",
+	Default = "Id Emote",
+	TextDisappear = true,
+	Callback = function(Value)
+_G.Animation = Value
+	end	  
+})
+
+Tab15:AddButton({
+	Name = "Start Emote",
+	Callback = function()
+if game.ReplicatedStorage:FindFirstChild("Animation") == nil then
+local Anim = Instance.new("Animation")
+Anim.AnimationId = "rbxassetid://".._G.Animation
+Anim.Name = "Animation"
+Anim.Parent = game.ReplicatedStorage
+elseif game.ReplicatedStorage:FindFirstChild("Animation") ~= nil then
+game.ReplicatedStorage:FindFirstChild("Animation").AnimationId = "rbxassetid://".._G.Animation
+end
+wait(0.5)
+if game.ReplicatedStorage:FindFirstChild("Animation") ~= nil then
+game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Animation, game.Players.LocalPlayer.Character.Humanoid):Play()
+end
+  	end    
+})
+local Section = Tab15:AddSection({
+	Name = "Emotes ID"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab15:AddButton({
+	Name = "T ID",
+	Callback = function()
+      		setclipboard("11167540743")
+  	end    
+})
+Tab15:AddButton({
+	Name = "BumbleBee ID",
+	Callback = function()
+      		setclipboard("11167578621")
+  	end    
+})
+Tab15:AddButton({
+	Name = "Celebrate ID",
+	Callback = function()
+      		setclipboard("11167590305")
+  	end    
+})
+Tab15:AddButton({
+	Name = "Distraction ID",
+	Callback = function()
+      		setclipboard("11167599845")
+  	end    
+})
+Tab15:AddButton({
+	Name = "Jaunty ID",
+	Callback = function()
+      		setclipboard("180435792")
+  	end    
+})
+Tab15:AddButton({
+	Name = "livesey ID",
+	Callback = function()
+      		setclipboard("11167620872")
+  	end    
+})
+Tab15:AddButton({
+	Name = "Mio ID",
+	Callback = function()
+      		setclipboard("11167630130")
+  	end    
+})
+Tab15:AddButton({
+	Name = "PB n J ID",
+	Callback = function()
+      		setclipboard("11167638538")
+  	end    
+})
+Tab15:AddButton({
+	Name = "Laugh ID",
+	Callback = function()
+      		setclipboard("11167652629")
+  	end    
+})
+Tab15:AddButton({
+	Name = "Griddy ID",
+	Callback = function()
+      		setclipboard("11167700544")
+  	end    
+})
+Tab15:AddButton({
+	Name = "Clap ID",
+	Callback = function()
+      		setclipboard("11167678428")
+  	end    
+})
+Tab15:AddButton({
+	Name = "Thumbs Up ID",
+	Callback = function()
+      		setclipboard("11167691243")
+  	end    
+})
+Tab15:AddButton({
+	Name = "Funny Sit ID",
+	Callback = function()
+      		setclipboard("178130996")
+  	end    
+})
+Tab15:AddButton({
+	Name = "Penguin ID",
+	Callback = function()
+      		setclipboard("180435792")
+  	end    
+})
+Tab15:AddButton({
+	Name = "California ID",
+	Callback = function()
+      		setclipboard("14054087970")
+  	end    
+})
+Tab15:AddButton({
+	Name = "Spookeez ID",
+	Callback = function()
+      		setclipboard("14054137819")
+  	end    
+})
+Tab15:AddButton({
+	Name = "Chipi ID",
+	Callback = function()
+      		setclipboard("14054107988")
+  	end    
+})
+Tab15:AddButton({
+	Name = "Chronoshift ID",
+	Callback = function()
+      		setclipboard("14054092420")
+  	end    
+})
+Tab15:AddButton({
+	Name = "MonsterMash ID",
+	Callback = function()
+      		setclipboard("14054068152")
+  	end    
+})
+Tab15:AddButton({
+	Name = "Spamton ID",
+	Callback = function()
+      		setclipboard("14054136716")
+  	end    
+})
+Tab15:AddButton({
+	Name = "Gaster ID",
+	Callback = function()
+      		setclipboard("14054114234")
+  	end    
+})
+Tab15:AddButton({
+	Name = "Caramell ID",
+	Callback = function()
+      		setclipboard("14054089458")
+  	end    
+})
+Tab15:AddButton({
+	Name = "Shuffle ID",
+	Callback = function()
+      		setclipboard("14054134818")
+  	end    
+})
+Tab15:AddButton({
+	Name = "Cupcakes ID",
+	Callback = function()
+      		setclipboard("14054095561")
+  	end    
+})
+Tab15:AddButton({
+	Name = "Mine ID",
+	Callback = function()
+      		setclipboard("14054080591")
+  	end    
+})
+Tab15:AddButton({
+	Name = "Boyz ID",
+	Callback = function()
+      		setclipboard("14147731600")
+  	end    
+})
+Tab15:AddButton({
+	Name = "Yoinkysploinky ID",
+	Callback = function()
+      		setclipboard("14054147640")
+  	end    
+})
+Tab15:AddButton({
+	Name = "Trophy ID",
+	Callback = function()
+      		setclipboard("15826393331")
+  	end    
+})
+Tab15:AddButton({
+	Name = "Trolling ID",
+	Callback = function()
+      		setclipboard("14054143164")
+  	end    
+})
+Tab15:AddButton({
+	Name = "Wave ID",
+	Callback = function()
+      		setclipboard("14054145820")
+  	end    
+})
+Tab15:AddButton({
+	Name = "Flop ID",
+	Callback = function()
+      		setclipboard("14054112932")
+  	end    
+})
+Tab15:AddButton({
+	Name = "Jevil ID",
+	Callback = function()
+      		setclipboard("14054116794")
+  	end    
+})
+Tab15:AddButton({
+	Name = "Kazotsky ID",
+	Callback = function()
+      		setclipboard("180435792")
+  	end    
+})
+Tab15:AddButton({
+	Name = "Swagtivity ID",
+	Callback = function()
+      		setclipboard("14054141964")
+  	end    
+})
+local Section = Tab15:AddSection({
+	Name = "Custom IDs"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab15:AddButton({
+	Name = "Rolling ID",
+	Callback = function()
+      		setclipboard("11515216676")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab15:AddButton({
+	Name = "Shake ID",
+	Callback = function()
+      		setclipboard("15668804644")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab15:AddButton({
+	Name = "spread out ID",
+	Callback = function()
+      		setclipboard("11515216676")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab15:AddButton({
+	Name = "throw something ID",
+	Callback = function()
+      		setclipboard("9240260722")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab15:AddButton({
+	Name = "slide something ID",
+	Callback = function()
+      		setclipboard("8266565481")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab15:AddButton({
+	Name = "smack something in the ground ID",
+	Callback = function()
+      		setclipboard("16037074779")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab15:AddButton({
+	Name = "PlaceHolder ID",
+	Callback = function()
+      		setclipboard("Test")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+
+
+
+local playerName = game.Players.LocalPlayer.Name
+Tab11:AddLabel("Welcome to Tester Hub " .. playerName)
+Tab11:AddParagraph("tutorial","1. to use a button just click\n2. to use use a toggle just click to activate and click again to deactivate\n3. to use a slider just hold and just slide your finger left and right\n4. and thats all") -- Use \n to make a new space
+Tab11:AddParagraph("rules","1. if your showcasing my script credit me\n2. i recommend using an alt to be safe\n3. if there is any sign of bugs or gliches tell me in script blox or in discord\n4. if you see someone pretending to be me send me the video") -- Use \n to make a new space
+Tab11:AddParagraph("this is made by testerhubby","1. made by testerhubby in discord\n2. all made by testerhubby") -- Use \n to make a new space
+Tab11:AddParagraph("click the button to copy my user and report any bugs","1. here\n2. here↓") -- Use \n to make a new space
+Tab11:AddButton({
+	Name = "Copy testerhubby discord username",
+	Callback = function()
+            setclipboard("testerhubby_43093")
+  	end    
+})
+Tab11:AddButton({
+	Name = "Destroy GUI",
+	Callback = function()
+      		OrionLib:Destroy()
+  	end    
+})
+
+
+
+Tab12:AddParagraph("Change Log","1. added a new paragraph\n2. New IDs\n3. New features at buttons and toggles\n4. Home Tab Has been Putted At the Top Again\n5. Added Wellcome player") -- Use \n to make a new space
+Tab12:AddParagraph("Announcement","1. NEW IDS") -- Use \n to make a new space
+
+
+
+
+
+
+
+Tab:AddLabel("more to be soonnn\nwhat are you looking at?")
+Tab1:AddLabel("more to be sooon\nwha wha a what how did you get here?")
+Tab2:AddLabel("This will no longer update😭\nhey there fella")
+Tab3:AddLabel("more to be soon🤔\nhoy hoy hoy gelatin")
+Tab4:AddLabel("more to be soonn🙂\nyoyle cake")
+Tab5:AddLabel("more to be soon😮\nmmm delicioso")
+Tab6:AddLabel("more to be soonn😧\nare team name will have to be.... your momm")
+Tab7:AddLabel("more to be soon🤓\nomg pull me up ahhhfhgch")
+Tab8:AddLabel("more to be soon😶\nkeep you neck muscles extended!")
+Tab9:AddLabel("more to be soon👀\ntester hub present the yearest hottest work")
+Tab10:AddLabel("more to be soon🥰\nmy students are all morons!")
+Tab12:AddLabel("more to be soon😁\nOH MY COCONUTSSS BESTIE ARE YOU OK!")
+Tab13:AddLabel("more to be soonn👹\nsi mark tahimik lang")
+Tab14:AddLabel("more to be soonnn😴\nthank you for saving me i was so thirsty I WAS SO THIRSTY")
+Tab15:AddLabel("more to be soonn😏\nI Needd Slumbluow juiceeee")
+
+
+
+
+
+
+
+
+
+OrionLib:Init()
